@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.comments-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
