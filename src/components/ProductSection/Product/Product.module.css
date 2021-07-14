@@ -1,0 +1,25 @@
+.container {
+  background-color: rgb(224, 221, 221);
+  display: flex;
+  margin-bottom: 1rem;
+  width: min-content;
+}
+
+.text {
+  padding: 2rem;
+  font-size: 1.5rem;
+  min-width: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: unset;
+  }
+
+  .picture {
+    width: 100%;
+  }
+}
