@@ -26,6 +26,7 @@
     height: unset;
     flex-direction: column;
     padding: 0;
+    width: 100vw;
   }
 
   .poster {
@@ -35,5 +36,10 @@
     min-height: unset;
     background-image: url('https://d9hhrg4mnvzow.cloudfront.net/info.geers.de/zdf/6697c9d2-zdf-hero-image-woman-virto-m-titanium-v1.jpg');
     background-size: cover;
+  }
+
+  .info {
+    min-width: unset;
+    width: 100%;
   }
 }

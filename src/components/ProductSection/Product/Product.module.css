@@ -16,7 +16,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: unset;
+  }
+
+  .text {
+    min-width: unset;
+    font-size: 1rem;
+    width: 80vw;
   }
 
   .picture {

@@ -1,6 +1,11 @@
 .container {
   padding: 1rem;
   width: 300px;
+  margin: 1rem;
+}
+
+.container:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .percentage {
